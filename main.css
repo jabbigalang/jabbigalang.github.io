@@ -1,0 +1,66 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: block;
+
+    font-family: 'Poppins';
+}
+
+/* Home */
+
+.home, .experience, .contact {
+    height: 100vh;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #243149;
+}
+/*background-color: #000220; */
+
+.home > h1 {
+    color: white;
+    font-size: 3em;
+}
+
+.highlight {
+    color: #F15B2A;
+}
+
+.experience {
+    display: block;
+}
+
+/* Experience */
+.experience > header {
+    width: 100%;
+    background-color: #0f253a;
+    margin: 0;
+}
+
+.navigation > ul {
+    padding: 20px;
+    margin: 0;
+}
+
+.navigation > ul > li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navigation > ul > li > a:link, a:visited {
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.navigation > ul > li > a:hover {
+    color: #F15B2A;
+}
